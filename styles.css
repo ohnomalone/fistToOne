@@ -9,14 +9,12 @@
   align-items: center;
 }
 
-.section__h1 {
-  font-size: 70px;
-  margin-top: 10%;
+.section__img-logo {
   margin: 5% 0 0 0;
 }
 
 .section__img-fist {
-  margin-top: 5%;
+  margin: 5% 0 0 0;
   min-width: 200px;
   max-width: 400px;
   width: 50%;
