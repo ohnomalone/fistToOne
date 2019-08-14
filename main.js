@@ -1,6 +1,6 @@
 var fist = "images/fistToOne_logo-0.svg"
 var one = "images/fistToOne_logo-1.svg"
-var colors = ["#5F5EBC", "#8FD9D9", "#F2C948", "#D93B18", "#03A678"];
+var colors = ["#5F5EBC", "#8FD9D9", "#F2C948", "#D93B18", "#03A678", "#E47996", "#8C6C9E", "#FF5733", "#8E9FA1"];
 var flickCounter = 0;
 
 $('.main__img-fist').on('click', () => {
@@ -36,8 +36,6 @@ const getRandomColor = () => {
 const countFlicks = () =>  {
   flickCounter++;
 }
-
-
 
 const rotateFist = () => {
   if (flickCounter % 10 === 0) {
