@@ -11,6 +11,8 @@ const changeFist = () => {
   if ($('.main__img-fist').attr('src') == fist) {
     changeColor();
     countFlicks();
+    console.log(flickCounter)
+    rotateFist();
     $('.main__img-fist').attr('src', one)
   } else {
     changeColor();
@@ -33,4 +35,20 @@ const getRandomColor = () => {
 
 const countFlicks = () =>  {
   flickCounter++;
+}
+
+
+
+const rotateFist = () => {
+  if (flickCounter % 10 === 0) {
+    $({ degrees: 0 }).animate({ degrees: 360 }, {
+      duration: 2000,
+      step: function (now) {
+        console.log(now)
+        $('.main__img-fist').css({
+          transform: 'rotate(' + now + 'deg)'
+        });
+      }
+    })
+  }
 }
