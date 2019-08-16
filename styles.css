@@ -15,28 +15,24 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 550px;
   min-width: 250px;
   width: 40%;
-  margin: 0 50px 0px 50px;
+  margin: 10%;
+}
+
+.main__img-logo {
+  width: 100%;
 }
 
 .main__img-fist {
-  margin: 100px 0 0px 0;
-  min-width: 200px;
-  max-width: 561px;
-  width: 111%;
+  margin-top: 10%;
+  width: 100%;
   touch-action: manipulation;
   cursor: pointer;
 }
 
 @media screen and (min-width: 620px) {
 
-  .main__img-fist {
-    margin-bottom: 35px;
+  .main {
+    margin: 5%;
   }
-
-  .main__img-logo {
-    margin-top: 35px;
-  }
-}
