@@ -30,6 +30,7 @@ body {
   touch-action: manipulation;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 @media screen and (min-width: 620px) {
