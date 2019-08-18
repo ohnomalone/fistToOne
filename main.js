@@ -39,6 +39,7 @@ const countFlicks = () =>  {
 
 const rotateFist = () => {
   if (flickCounter % 10 === 0) {
+     $(".main__img-fist").attr("disabled", "disabled");
     $({ degrees: 0 }).animate({ degrees: 360 }, {
       duration: 2000,
       step: function (now) {
@@ -48,5 +49,9 @@ const rotateFist = () => {
         });
       }
     })
+    setTimeout(function() {
+      console.log("second time stamp", Date.now());
+      $(".main__img-fist").removeAttr("disabled", "disabled");
+    }, 2000);
   }
 }
