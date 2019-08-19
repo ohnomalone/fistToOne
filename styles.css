@@ -33,8 +33,12 @@ body {
   outline: none;
 }
 
-@media screen and (min-width: 620px) {
+input[type=image]:disabled
+{
+    opacity:100;
+}
 
+@media screen and (min-width: 620px) {
   .main {
     margin: 5%;
   }
