@@ -40,13 +40,13 @@ Main Page
 
 ### Team
 
-- Matt Malone (https://github.com/matthewdshepherd)
+- Matt Malone (https://github.com/ohnomalone)
 
 - Quinne Farenwald (https://github.com/qfarenwald)
 
 ## GitHub Pages (live site)
 
-- https://matthewdshepherd.github.io/fistToOne/
+- https://ohnomalone.github.io/fistToOne/
 
 ### Future Deployment
 
